@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Name{
+    /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=afd239&c2=ef3d0a&gt=l&gd=dcr
+*/
+background: rgba(175, 210, 57, 1.0);
+background: linear-gradient(270deg, rgba(175, 210, 57, 1.0), rgba(239, 61, 10, 1.0));
+   
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}
+
+.image{
+    //filter: drop-shadow(2px 6px 4px #e52e71);
+    //border: 5px solid transparent; /* Adjust border width as needed */
+    //border-image: linear-gradient(to right, #ff8a00, #e52e71); /* Adjust gradient colors as needed */
+    //border-image-slice: 1; 
+    border-radius:10px;
+    box-shadow:10px 10px 0px 3px black;
+
+}
+.image:hover{
+    box-shadow:0px 0px 10px 5px black;
+}
+
+.heading1{
+    font-weight:700;
+    font-size:42px;
+}
+
+.about{
+    font-size:18px;
+}
