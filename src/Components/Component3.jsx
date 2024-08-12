@@ -52,79 +52,38 @@ function Component3() {
           <img className="hover:scale-110 hover:translate-y-3 transition easy-in-out duration-200" width={"90px"}  src="https://www.vectorlogo.zone/logos/isocpp/isocpp-icon.svg" />
         </div>
       </div>
-      <div className="flex flex-wrap gap-8   border-2 py-8 px-5 rounded-md">
+      <div className="flex flex-col gap-8   border-2 py-8 px-5 rounded-md">
         <div className="heading1 flex justify-center">Projects</div>
-        <div className="flex gap-5 justify-evenly flex-wrap">
-          <div className="w-fit h-fit border-2 rounded-lg py-2 px-2 hover:scale-110 transition ease-in-out duration-300  hover:border-gray-950">
-            <div>Blog Website</div>
-            <div>It is a blog website</div>
-            <div>Tech stack: ReactJS, NodeJS, ExpressJS, TailwindCSS</div>
+        <div className="flex gap-5  flex-row">
+          <div className="w-1/2 h-full border-2 rounded-lg py-2 px-2  hover:border-gray-950">
+            <div className="font-bold">Connect</div>
+            <div className="text-wrap">A messaging web app where a person can login and do one-to-one chat and also make rooms and chill.</div>
+            <div>Tech stack: ReactJS, NodeJS, ExpressJS, TailwindCSS, Socket.IO, JWT, Cookies</div>
             <div className="flex h-5 gap-1">
               <img src="https://cdn-icons-png.flaticon.com/128/2504/2504911.png" />
               <a
                 className="text-cyan-500"
-                href="https://github.com/acoderone/To-Do-App"
+                href="https://github.com/acoderone/Connect"
               >
                 Github Link
               </a>
             </div>
           </div>
-          <div className="w-fit border-2 rounded-lg py-2 px-2  hover:scale-110 transition ease-in-out duration-300 h-fit hover:border-gray-950">
-            <div>Blog Website</div>
-            <div>It is a blog website</div>
-            <div>Tech stack: ReactJS, NodeJS, ExpressJS, TailwindCSS</div>
+          <div className="w-1/2 h-full border-2 rounded-lg py-2 px-2  hover:border-gray-950">
+            <div className="font-bold">Course Selling App</div>
+            <div className="text-wrap">In this app admin can add , remove ,edit the courses and client can purchase that.</div>
+            <div>Tech stack: ReactJS, NodeJS, ExpressJS, TailwindCSS, JWT</div>
             <div className="flex h-5 gap-1">
               <img src="https://cdn-icons-png.flaticon.com/128/2504/2504911.png" />
               <a
                 className="text-cyan-500"
-                href="https://github.com/acoderone/To-Do-App"
+                href="https://github.com/acoderone/Connect"
               >
                 Github Link
               </a>
             </div>
           </div>
-          <div className="w-fit border-2 rounded-lg py-2 px-2 hover:scale-110 transition ease-in-out duration-300 h-fit hover:border-gray-950">
-            <div>Blog Website</div>
-            <div>It is a blog website</div>
-            <div>Tech stack: ReactJS, NodeJS, ExpressJS, TailwindCSS</div>
-            <div className="flex h-5 gap-1">
-              <img src="https://cdn-icons-png.flaticon.com/128/2504/2504911.png" />
-              <a
-                className="text-cyan-500"
-                href="https://github.com/acoderone/To-Do-App"
-              >
-                Github Link
-              </a>
-            </div>
-          </div>
-          <div className="w-fit border-2 rounded-lg py-2 px-2 hover:scale-110 transition ease-in-out duration-300 h-fit hover:border-gray-950">
-            <div>Blog Website</div>
-            <div>It is a blog website</div>
-            <div>Tech stack: ReactJS, NodeJS, ExpressJS, TailwindCSS</div>
-            <div className="flex h-5 gap-1">
-              <img src="https://cdn-icons-png.flaticon.com/128/2504/2504911.png" />
-              <a
-                className="text-cyan-500"
-                href="https://github.com/acoderone/To-Do-App"
-              >
-                Github Link
-              </a>
-            </div>
-          </div>
-          <div className="w-fit border-2 rounded-lg py-2 px-2 hover:scale-110 transition ease-in-out duration-300 h-fit hover:border-gray-950">
-            <div>Blog Website</div>
-            <div>It is a blog website</div>
-            <div>Tech stack: ReactJS, NodeJS, ExpressJS, TailwindCSS</div>
-            <div className="flex h-5 gap-1">
-              <img src="https://cdn-icons-png.flaticon.com/128/2504/2504911.png" />
-              <a
-                className="text-cyan-500"
-                href="https://github.com/acoderone/To-Do-App"
-              >
-                Github Link
-              </a>
-            </div>
-          </div>
+        
         </div>
       </div>
     </div>
