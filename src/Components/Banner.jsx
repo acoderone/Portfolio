@@ -1,5 +1,5 @@
 import cv from "../assets/Ashish_Kumar_Verma_Resume.pdf";
-import myImg from "../assets/Mypic.jpg";
+import pic from "../assets/pic.jpg";
 import "../index.css";
 function Banner() {
   const handleDownloadCV = () => {
@@ -25,7 +25,7 @@ function Banner() {
     document.body.removeChild(anchorElement);
   };
   return (
-    <div className="flex flex-col-reverse lg:flex-row my-20 gap-10">
+    <div className="flex flex-col-reverse lg:flex-row my-20 gap-10 sm:justify-center sm:items-center">
       <div className="lg:w-3/5 flex flex-col ml-10  justify-center gap-5 ">
         <div className="font-bold text-6xl leading-tight">
           <div className="hidden lg:block">
@@ -33,7 +33,7 @@ function Banner() {
             My name is <br />
             Ashish Verma. <br />I build things for web.
           </div>
-          <div className="lg:hidden text-center text-6xl">
+          <div className="lg:hidden  text-center text-6xl sm:text-sm">
             Hi, My name is Ashish Verma. I build things for web.
           </div>
         </div>
@@ -57,7 +57,7 @@ function Banner() {
       <div className="lg:w-2/5 flex justify-center">
         <img
           className="image hover:scale-110 transition ease-in-out duration-300 h-full"
-          src={myImg}
+          src={pic}
         />
       </div>
     </div>
