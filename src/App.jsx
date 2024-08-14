@@ -2,7 +2,7 @@ import React,{useRef} from 'react';
 import Banner from './Components/Banner';
 import Component3 from './Components/Component3';
 import Navbar from './Components/Navbar';
-
+import Footer from './Components/Footer';
 function App() {
   
 const componentRef=useRef();
@@ -18,6 +18,9 @@ const componentRef=useRef();
       </div>
       <div ref={componentRef} className='flex justify-center h-full'>
         <Component3 />
+      </div>
+      <div className='h-28 p-4 rounded-md bg-slate-950 text-zinc-50'>
+       <Footer />
       </div>
     </div>
   );
