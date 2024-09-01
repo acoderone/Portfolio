@@ -2,6 +2,14 @@ import cv from "../assets/Ashish_Kumar_Verma_Resume.pdf";
 import pic from "../assets/pic.jpg";
 import "../index.css";
 function Banner() {
+  const to_Mail = () => {
+    // Define the Gmail URL with pre-filled fields
+    const gmailUrl =
+      "https://mail.google.com/mail/?view=cm&fs=1&to=avi5200786@gmail.com&su=SUBJECT&body=BODY";
+
+    // Open the Gmail URL in a new tab
+    window.open(gmailUrl, "_blank", "noopener,noreferrer");
+  };
   const handleDownloadCV = () => {
     // Replace 'path_to_your_cv.pdf' with the actual path to your CV file
     const cvUrl = cv;
@@ -39,9 +47,11 @@ function Banner() {
         </div>
         <div className="flex gap-10 lg:justify-start justify-center">
           <div className="">
-            <button className="bg-black  text-white lg:px-16  lg:py-5 px-6 py-3 rounded font-semibold text-lg hover:bg-white hover:text-black border-2 border-black hover:border-black transition-all ease-in-out duration-300">
-              Contact Me...
-            </button>
+           <button onClick={to_Mail} className="bg-black  text-white lg:px-16  lg:py-5 px-6 py-3 rounded 
+            font-semibold text-lg hover:bg-white hover:text-black border-2 border-black
+             hover:border-black transition-all ease-in-out duration-300" href="https://mail.google.com/mail/?view=cm&fs=1&to=avi5200786@gmail.com&su=SUBJECT&body=BODY" target="_blank">Contact Me</button>
+
+          
           </div>
           <div className="">
             <button
