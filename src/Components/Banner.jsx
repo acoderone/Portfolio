@@ -1,4 +1,4 @@
-import cv from "../assets/Ashish_Kumar_Verma_Resume.pdf";
+import cv from "../assets/Ashish_Kumar_Verma_CV.pdf";
 import pic from "../assets/pic.jpg";
 import "../index.css";
 function Banner() {
@@ -21,7 +21,7 @@ function Banner() {
     anchorElement.href = cvUrl;
 
     // Set the download attribute to specify the suggested filename
-    anchorElement.download = "Ashish_kumar_Verma.pdf";
+    anchorElement.download = "Ashish_Kumar_Verma_CV.pdf";
 
     // Append the anchor element to the document body
     document.body.appendChild(anchorElement);
@@ -34,24 +34,36 @@ function Banner() {
   };
   return (
     <div className="flex flex-col-reverse lg:flex-row my-20 gap-10 sm:justify-center sm:items-center">
-      <div className="lg:w-3/5 flex flex-col ml-10  justify-center gap-5 ">
-        <div className="font-bold text-6xl leading-tight">
-          <div className="hidden lg:block">
-            Hi, <br />
-            My name is <br />
-            Ashish Verma. <br />I build things for web.
+      <div className="lg:w-3/5 flex flex-col  justify-center gap-5 ">
+        
+          <div className="font-bold leading-tight sm:text-xl lg:text-4xl ">
+            Hi,
+            <span>
+              <br />
+            </span>
+            My name is
+            <span>
+              <br />
+            </span>
+            Ashish.
+            <span>
+              <br />
+            </span>
+            I build things for fun.
           </div>
-          <div className="lg:hidden  text-center text-6xl sm:text-sm">
-            Hi, My name is Ashish Verma. I build things for web.
-          </div>
-        </div>
+        
         <div className="flex gap-10 lg:justify-start justify-center">
           <div className="">
-           <button onClick={to_Mail} className="bg-black  text-white lg:px-16  lg:py-5 px-6 py-3 rounded 
+            <button
+              onClick={to_Mail}
+              className="bg-black  text-white lg:px-16  lg:py-5 px-6 py-3 rounded 
             font-semibold text-lg hover:bg-white hover:text-black border-2 border-black
-             hover:border-black transition-all ease-in-out duration-300" href="https://mail.google.com/mail/?view=cm&fs=1&to=avi5200786@gmail.com&su=SUBJECT&body=BODY" target="_blank">Contact Me</button>
-
-          
+             hover:border-black transition-all ease-in-out duration-300"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=avi5200786@gmail.com&su=SUBJECT&body=BODY"
+              target="_blank"
+            >
+              Contact Me
+            </button>
           </div>
           <div className="">
             <button
@@ -64,7 +76,7 @@ function Banner() {
         </div>
       </div>
 
-      <div className="lg:w-2/5 flex justify-center">
+      <div className="lg:w-2/5 flex justify-center sm:justify-center">
         <img
           className="image hover:scale-110 transition ease-in-out duration-300 h-full"
           src={pic}
